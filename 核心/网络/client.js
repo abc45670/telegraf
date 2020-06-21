@@ -272,7 +272,7 @@ class ApiClient {
         return safeJSONParse(text) || {
           error_code: 500,
           description: 'Unsupported http response from Telegram',
-          response: text
+          onse:te
         }
       })
       .then((data) => {
